@@ -1,0 +1,86 @@
+<%- include('partials/header'); %>
+
+<section id="dataSection">
+    <h2><%=pageTitle%></h2>
+    <div>
+        <div href="#extended" data-toggle="collapse" aria-expanded="false"
+        class="toggle-switch">
+            <span>Details</span>
+            <input type="checkbox" id="chkTest" name="chkTest">
+            <label for="chkTest">
+              <span class="toggle-track"></span>
+            </label>
+            <span>Summary</span>
+
+          </div>
+        <table class="comp-months-table">
+            <thead>
+                <tr>
+                    <th>Organisation</th>
+                    <% for (let i=0; i < report[0].body.reports[0].rows[0].cells.length; i++) {%>
+                    <th id="months">
+                        <%= moment(report[0].body.reports[0].rows[0].cells[i].value).format('MMM-YY') %>
+                        
+                    </th>
+                    <% } %>
+                </tr>
+            </thead>
+            <tbody>
+                <% for (var i=0; i < report.length; i++) { %>
+                <tr>
+                    <td><%= report[i].body.reports[0].reportTitles[1] %></td>
+                    <% for (let j=0; j <
+                            report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                            1].rows[0].cells.length; j++) {%>
+                    <td>
+                        <%= report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                                    1].rows[0].cells[j].value %>
+                    </td>
+                    <% } %>
+                </tr>
+                <tr id="extended" class="collapse">
+                    <td></td>
+
+
+                    <% for (let l=0; l < report[i].body.reports[0].rows[1].rows[report[i].body.reports[0].rows[1].rows.length - 1].cells.length; l++) {%>
+                    <td>
+                        <%= report[i].body.reports[0].rows[1].rows[report[i].body.reports[0].rows[1].rows.length - 1].cells[l].value %>
+                    </td>
+                    <% } %>
+                </tr>
+                <tr id="extended" class="collapse">
+                    <td></td>
+
+
+                    <% for (let m=0; m < report[i].body.reports[0].rows[2].rows[report[i].body.reports[0].rows[2].rows.length - 1].cells.length; m++) {%>
+                    <td>
+                        <%= report[i].body.reports[0].rows[2].rows[report[i].body.reports[0].rows[2].rows.length - 1].cells[m].value %>
+                    </td>
+
+
+                    <% } %>
+                </tr>
+                    <tr id="extended" class="collapse">
+
+                        <td></td>
+
+                        <% for (let k=0; k <
+                                            report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                                            2].rows[report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                                            2].rows.length - 1].cells.length; k++) {%>
+                        <td>
+                            <%= report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                                                    2].rows[report[i].body.reports[0].rows[report[i].body.reports[0].rows.length
+                                                    - 2].rows.length - 1].cells[k].value %>
+                        </td>
+                        <% } %>
+                    </tr>
+                   
+                <% } %>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<%- include('partials/footer'); %>

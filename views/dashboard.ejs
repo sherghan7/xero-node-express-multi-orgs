@@ -1,0 +1,45 @@
+<%- include('partials/header.ejs', {title: 'Dashboard' }) -%>
+
+
+
+
+
+
+<section id="dataSection">
+    <h2><%=pageTitle%></h2>
+    <div>
+      <div class="row">
+        <div class="info-card">
+            <h3>Xero Login Details</h3>
+            <hr>
+            <small>Name: <Strong>
+                    <%= authData.decodedIdToken.given_name %>
+                        <%= authData.decodedIdToken.family_name %>
+                </Strong></small>
+            <br>
+            <small>Email: <Strong>
+                    <%= authData.decodedIdToken.email %>
+                </Strong></small>
+            <hr>
+            <small>Organisation(s):
+                <strong>
+                    <ol>
+                        <% for (var i=0; i < allTenants.length; i++) { %>
+                            <li class="org-list">
+                                <%= allTenants[i].tenantName %>
+                            </li>
+                            <% } %>
+                    </ol>
+                </strong>
+            </small>
+        </div>
+    </div>
+    </div>
+  
+  </section>
+
+
+
+
+
+    <%- include('partials/footer.ejs') -%>

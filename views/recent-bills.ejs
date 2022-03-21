@@ -1,0 +1,50 @@
+<%- include('partials/header.ejs') %>
+
+
+
+
+<section id="dataSection">
+    <h2><%=pageTitle%></h2>
+    <div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col recent-invoices">
+                    <table class="styled-table"> 
+                        <thead>
+                            <tr>
+                                <th>Org</th>
+                                <th>Inv#</th>
+                                <th>For</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                                <th>Subtotal</th>
+                                <th>Tax</th>
+                                <th>Net Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% for(var i = 0; i < invoices.length; i++) { %>
+                                <tr>
+                                    <td><%= invoices[i].tenantName %></td>
+                                    <td><%= invoices[i].invoiceNumber %></td>
+                                    <td><%= invoices[i].contact.name %></td>
+                                    <td><%= invoices[i].date.toLocaleDateString() %></td>
+                                    <td><%= invoices[i].status %></td>
+                                    <td class="text-right"><%= invoices[i].subTotal %></td>
+                                    <td class="text-right"><%= invoices[i].totalTax %></td>
+                                    <td class="text-right"><%= invoices[i].total %></td>
+                                </tr>
+                            <% } %>
+                        </tbody>
+        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,215 @@
+<%- include('partials/header.ejs') -%>
+
+
+<style>
+.dr-form form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dr-form form .form-group {
+    margin-right: 10px;
+}
+.dr-form form button {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  height: 40px;
+  margin-top: 15px
+}
+</style>
+
+
+<section id="dataSection">
+    <h2><%=pageTitle%></h2>
+    <div>
+        <div class="form dr-form">
+            <form action="/dateRangeSearch" method="POST">
+                <div class="form-group">
+                    <label for="starDate">Start Date</label><br>
+                    <input type="date" class="form-control" id="startDate" name="startDate" placeholder="Start Date"
+                        autocomplete="false">
+                </div>
+                    <div class="form-group">
+                    <label for="endDate">End Date</label>
+                    <input type="date" class="form-control" id="endDate" name="endDate" placeholder="End Date"
+                        autocomplete="false">
+                </div>
+                <button type="submit" class="">Search</button>
+            </form>
+        </div>
+    
+    
+    
+        <div class="date-range-info">
+            <p>
+                <%=report[0].reportTitles[2]%>
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Organisation</th>
+                                <th>Income</th>
+                                <th>Cost of Sale</th>
+                                <th>Gross Profit</th>
+                                <th>G.P (%)</th>
+                                <th>Operating Expenses</th>
+                                <th>Net Profit/Loss</th>
+                                <th>N.P (%)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% for (var i=0; i < report.length; i++) { %>
+                                <% let income=report[i].rows[1].rows[report[i].rows[1].rows.length - 1].cells[1].value %>
+                                    <% let costOfSale=report[i].rows[2].rows[report[i].rows[2].rows.length -
+                                        1].cells[1].value %>
+                                        <% let grossProfit=income - costOfSale %>
+                                            <% let grossProfitPercentage=(grossProfit / income) * 100 || 0%>
+                                                <% let operatingExpenses=report[i].rows[report[i].rows.length -
+                                                    2].rows[report[i].rows[report[i].rows.length - 2].rows.length -
+                                                    1].cells[1].value %>
+                                                    <% let netProfit=income - costOfSale - operatingExpenses %>
+                                                        <% let netProfitPercentage=(netProfit / income) * 100 || 0%>
+                                                            <tr>
+                                                                <td>
+                                                                    <%= report[i].reportTitles[1] %>
+                                                                </td>
+                                                                <td>
+                                                                    <%= income %>
+                                                                </td>
+                                                                <td>
+                                                                    <%= costOfSale %>
+                                                                </td>
+                                                                <td>
+                                                                    <%= grossProfit.toFixed(2) %>
+                                                                </td>
+                                                                <td>
+                                                                    <%= grossProfitPercentage.toFixed(2) %>
+                                                                </td>
+                                                                <td>
+                                                                    <%= operatingExpenses %>
+                                                                </td>
+                                                                <td>
+                                                                    <%= netProfit.toFixed(2) %>
+                                                                </td>
+                                                                <td id="percent"
+                                                                    value="<%= netProfitPercentage.toFixed(2) %>">
+                                                                    <%= netProfitPercentage.toFixed(2) %>
+                                                                </td>
+                                                                <% } %>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+        <script>
+            const ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: [<% for(var i = 0; i<report.length; i++) { %> '<%= report[i].reportTitles[1] %>',<% } %>],
+            datasets: [{
+                label: 'Profit/Loss Percentage',
+                data: [<% for(var i = 0; i<report.length; i++) { %><% let income = report[i].rows[1].rows[report[i].rows[1].rows.length - 1].cells[1].value %>
+                        <% let costOfSale = report[i].rows[2].rows[report[i].rows[2].rows.length - 1].cells[1].value %>
+                        <% let grossProfit = income - costOfSale %>
+                        <% let grossProfitPercentage = (grossProfit / income) * 100 || 0 %>
+                        <% let operatingExpenses = report[i].rows[report[i].rows.length - 2].rows[report[i].rows[report[i].rows.length - 2].rows.length - 1].cells[1].value %>
+                        <% let netProfit = income - costOfSale - operatingExpenses %>
+                        <% let netProfitPercentage = (netProfit / income) * 100 || 0 %> <%= netProfitPercentage.toFixed(2) %>,<% } %>],
+                backgroundColor: [
+                    //if the value is negative, the background color is red else green
+                    <% for(var i = 0; i<report.length; i++) { %>
+                        <% let income = report[i].rows[1].rows[report[i].rows[1].rows.length - 1].cells[1].value %>
+                        <% let costOfSale = report[i].rows[2].rows[report[i].rows[2].rows.length - 1].cells[1].value %>
+                        <% let grossProfit = income - costOfSale %>
+                        <% let grossProfitPercentage = (grossProfit / income) * 100 || 0 %>
+                        <% let operatingExpenses = report[i].rows[report[i].rows.length - 2].rows[report[i].rows[report[i].rows.length - 2].rows.length - 1].cells[1].value %>
+                        <% let netProfit = income - costOfSale - operatingExpenses %>
+                        <% let netProfitPercentage = (netProfit / income) * 100 || 0 %>
+    
+                    <% if(netProfitPercentage < 0) { %>
+                    'rgb(255, 0, 0, 0.8)',
+                    <% } else { %>
+                    'rgb(3, 173, 80, 0.8)',
+                    <% } %>
+                    <% } %>
+    
+                ],
+                    borderColor: [
+                    <% for(var i = 0; i<report.length; i++) { %>
+                        <% let income = report[i].rows[1].rows[report[i].rows[1].rows.length - 1].cells[1].value %>
+                        <% let costOfSale = report[i].rows[2].rows[report[i].rows[2].rows.length - 1].cells[1].value %>
+                        <% let grossProfit = income - costOfSale %>
+                        <% let grossProfitPercentage = (grossProfit / income) * 100 || 0 %>
+                        <% let operatingExpenses = report[i].rows[report[i].rows.length - 2].rows[report[i].rows[report[i].rows.length - 2].rows.length - 1].cells[1].value %>
+                        <% let netProfit = income - costOfSale - operatingExpenses %>
+                        <% let netProfitPercentage = (netProfit / income) * 100 || 0 %>
+    
+                    <% if(netProfitPercentage < 0) { %>
+                    'rgb(255, 0, 0)',
+                    <% } else { %>
+                    'rgb(3, 173, 80)',
+                    <% } %>
+                    <% } %>
+                    ],
+                        borderWidth: 3
+    }]
+    },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: false
+                        }
+                    }]
+                },
+                tooltips: {
+                    callbacks: {
+                        label: function(tooltipItem, data) {
+                            return data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] + '%';
+                        }
+                    }
+                },
+                legend: {
+                    display: false
+                },
+                title: {
+                    display: true,
+                    text: 'Profit/Loss Percentage'
+                },
+                responsive: true,
+                maintainAspectRatio: true,
+                layout: {
+                    padding: 50
+                }
+            }
+    });
+        </script>
+    </div>
+  </section>
+
+    <%- include('partials/footer.ejs') -%>

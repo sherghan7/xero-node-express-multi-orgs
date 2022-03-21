@@ -1,0 +1,196 @@
+<%- include('partials/header'); %>
+
+
+
+<script>
+    $(document).ready(function () {
+        $('.toggle-row').click(function () {
+            $(this).closest('tr').next().toggle(200);
+            $(this).text(function (i, text) {
+                return text === "-" ? "+" : "-";
+            });
+        });
+    });
+</script>
+<style>
+    .d-none {
+        display: none;
+
+    }
+
+    .d-none td {
+        background: #EEEEEE !important;
+        color: #00ADB5;
+        font-size: .9em;
+        transition: .2s;
+
+    }
+
+    .secondry-table tbody {
+        display: flex;
+        flex-direction: column;
+        right: 0;
+
+    }
+
+
+    button:hover {
+        background: #393E46;
+        color: #EEEEEE;
+    }
+
+    .toggle-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: 1px solid #393E46;
+        padding: 5px 10px;
+        border-radius: 100%;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        color: #393E46;
+        width: 30px;
+        height: 30px;
+        box-shadow: 0 0 10px #EEEEEE;
+        margin: 0 auto;
+    }
+
+    .secondry-table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 1px solid #EEEEEE;
+    }
+
+
+    .secondry-table th {
+        background: #777777;
+        text-align: center;
+        border: none;
+    }
+
+    .secondry-table tbody tr:last-of-type {
+        border-bottom: none;
+    }
+
+    .tr-focus {
+        transition: .3s;
+    }
+
+    .tr-focus:hover {
+        background: #393E46;
+        color: #EEEEEE;
+        transition: .3s;
+    }
+
+    .btn-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+
+
+    }
+
+    .styled-table thead tr th:nth-child(n+5),
+    .styled-table tbody tr td:nth-child(n+4),
+    .secondry-table td {
+        width: 90px;
+    }
+    td {
+        width: 100px !important;
+        text-align: right;
+    }
+
+    .secondry-table tbody tr {
+margin-left: 70px;
+    }
+
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>
+                            Organisation
+                        </th>
+                        <% for (let i=0; i < report[0].body.reports[0].rows[0].cells.length; i++) {%>
+                        <th>
+                            <%= report[0].body.reports[0].rows[0].cells[i].value %>
+                        </th>
+                        <% } %>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% for (var i=0; i < report.length; i++) { %>
+                    <tr class="tr-focus">
+                        <td class="btn-col"><button class="toggle-row">+</button></td>
+                        <td><%= report[i].body.reports[0].reportTitles[1] %></td>
+                        <% for (let j=0; j <
+                                    report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                                    1].rows[0].cells.length; j++) {%>
+                        <td>
+                            <%= report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                                            1].rows[0].cells[j].value %>
+                        </td>
+                        <% } %>
+                    </tr>
+                    <tr class="d-none">
+                        <td colspan="10">
+                            <table class="secondry-table">
+
+                                <tbody>
+                                    <tr>
+<td></td>
+<td></td>
+
+                                        <% for (let k=0; k <
+                        report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                        2].rows[report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                        2].rows.length - 1].cells.length; k++) {%>
+                                        <td>
+                                            <%= report[i].body.reports[0].rows[report[i].body.reports[0].rows.length -
+                                2].rows[report[i].body.reports[0].rows[report[i].body.reports[0].rows.length
+                                - 2].rows.length - 1].cells[k].value %>
+                                        </td>
+                                        <% } %>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td></td>
+
+
+                                        <% for (let l=0; l < report[i].body.reports[0].rows[1].rows[report[i].body.reports[0].rows[1].rows.length - 1].cells.length; l++) {%>
+                                        <td>
+                                            <%= report[i].body.reports[0].rows[1].rows[report[i].body.reports[0].rows[1].rows.length - 1].cells[l].value %>
+                                        </td>
+
+
+                                        <% } %>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <% } %>
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<%- include('partials/footer'); %>

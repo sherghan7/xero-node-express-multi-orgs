@@ -1,0 +1,2916 @@
+[
+    {
+      "groupName": "Nitro Ventures",
+      "report": {
+        "response": {
+          "statusCode": 200,
+          "body": {
+            "Id": "cd966a09-e4aa-4318-acf1-42a9b8df8ebf",
+            "Status": "OK",
+            "ProviderName": "NodeTest",
+            "DateTimeUTC": "/Date(1647791184318)/",
+            "Reports": [
+              {
+                "ReportID": "ProfitAndLoss",
+                "ReportName": "Profit and Loss",
+                "ReportType": "ProfitAndLoss",
+                "ReportTitles": [
+                  "Profit & Loss",
+                  "Demo Company (Global)",
+                  "1 January 2022 to 31 December 2022"
+                ],
+                "ReportDate": "20 March 2022",
+                "UpdatedDateUTC": "/Date(1647791184318)/",
+                "Fields": [],
+                "Rows": [
+                  {
+                    "RowType": "Header",
+                    "Cells": [
+                      {
+                        "Value": ""
+                      },
+                      {
+                        "Value": "31 Dec 22"
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "Income",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Sales",
+                            "Attributes": [
+                              {
+                                "Value": "d1ebb97b-d207-4ccb-9ab6-8a466a8b4d39",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "22973.18",
+                            "Attributes": [
+                              {
+                                "Value": "d1ebb97b-d207-4ccb-9ab6-8a466a8b4d39",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "SummaryRow",
+                        "Cells": [
+                          {
+                            "Value": "Total Income"
+                          },
+                          {
+                            "Value": "22973.18"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "Less Cost of Sales",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Purchases",
+                            "Attributes": [
+                              {
+                                "Value": "ae8074e0-1ac1-4b37-8546-afa9fa6ace9e",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "775.98",
+                            "Attributes": [
+                              {
+                                "Value": "ae8074e0-1ac1-4b37-8546-afa9fa6ace9e",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "SummaryRow",
+                        "Cells": [
+                          {
+                            "Value": "Total Cost of Sales"
+                          },
+                          {
+                            "Value": "775.98"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Gross Profit"
+                          },
+                          {
+                            "Value": "22197.20"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "Less Operating Expenses",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Advertising",
+                            "Attributes": [
+                              {
+                                "Value": "eb01b8c7-f9b0-49ef-86f4-ed89b4ac33d5",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "9657.05",
+                            "Attributes": [
+                              {
+                                "Value": "eb01b8c7-f9b0-49ef-86f4-ed89b4ac33d5",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Bank Fees",
+                            "Attributes": [
+                              {
+                                "Value": "269479fb-cc8e-4e5f-b0b6-cc4eccf045e0",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "30.00",
+                            "Attributes": [
+                              {
+                                "Value": "269479fb-cc8e-4e5f-b0b6-cc4eccf045e0",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Cleaning",
+                            "Attributes": [
+                              {
+                                "Value": "30ad3fd7-43b8-4eeb-96bc-ed2b7c945f3c",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "110.00",
+                            "Attributes": [
+                              {
+                                "Value": "30ad3fd7-43b8-4eeb-96bc-ed2b7c945f3c",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Consulting & Accounting",
+                            "Attributes": [
+                              {
+                                "Value": "d2429b4f-ad8b-45e5-815a-13f5ecb0d5c1",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "87.00",
+                            "Attributes": [
+                              {
+                                "Value": "d2429b4f-ad8b-45e5-815a-13f5ecb0d5c1",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Entertainment",
+                            "Attributes": [
+                              {
+                                "Value": "6a7d9c59-1d5a-4474-8c61-3da1f980db13",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "1553.60",
+                            "Attributes": [
+                              {
+                                "Value": "6a7d9c59-1d5a-4474-8c61-3da1f980db13",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Freight & Courier",
+                            "Attributes": [
+                              {
+                                "Value": "c4b1c463-9913-4672-a8b8-01a3b546126f",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "105.50",
+                            "Attributes": [
+                              {
+                                "Value": "c4b1c463-9913-4672-a8b8-01a3b546126f",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "General Expenses",
+                            "Attributes": [
+                              {
+                                "Value": "4281c446-efb4-445d-b32d-c441a4ef5678",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "166.28",
+                            "Attributes": [
+                              {
+                                "Value": "4281c446-efb4-445d-b32d-c441a4ef5678",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Light, Power, Heating",
+                            "Attributes": [
+                              {
+                                "Value": "c61d3100-d95f-4ce4-ba75-c03cc767b825",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "335.82",
+                            "Attributes": [
+                              {
+                                "Value": "c61d3100-d95f-4ce4-ba75-c03cc767b825",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Motor Vehicle Expenses",
+                            "Attributes": [
+                              {
+                                "Value": "470f3b54-9cbe-420a-8d13-22cb17fd9d40",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "654.36",
+                            "Attributes": [
+                              {
+                                "Value": "470f3b54-9cbe-420a-8d13-22cb17fd9d40",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Office Expenses",
+                            "Attributes": [
+                              {
+                                "Value": "79fc6227-e183-409a-ba39-77028e0ceeff",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "812.59",
+                            "Attributes": [
+                              {
+                                "Value": "79fc6227-e183-409a-ba39-77028e0ceeff",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Printing & Stationery",
+                            "Attributes": [
+                              {
+                                "Value": "a8c9ca73-91ef-4163-a4f6-7d892201c087",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "94.41",
+                            "Attributes": [
+                              {
+                                "Value": "a8c9ca73-91ef-4163-a4f6-7d892201c087",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Rent",
+                            "Attributes": [
+                              {
+                                "Value": "d76027eb-0256-4b69-9f72-4751312e2749",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "3273.66",
+                            "Attributes": [
+                              {
+                                "Value": "d76027eb-0256-4b69-9f72-4751312e2749",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Repairs and Maintenance",
+                            "Attributes": [
+                              {
+                                "Value": "5098e313-2775-40c3-9bb4-6b1f86d89a47",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "1896.70",
+                            "Attributes": [
+                              {
+                                "Value": "5098e313-2775-40c3-9bb4-6b1f86d89a47",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Telephone & Internet",
+                            "Attributes": [
+                              {
+                                "Value": "3b4fee92-7ed1-4d63-b00e-8fdf13927e05",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "134.75",
+                            "Attributes": [
+                              {
+                                "Value": "3b4fee92-7ed1-4d63-b00e-8fdf13927e05",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Travel - National",
+                            "Attributes": [
+                              {
+                                "Value": "f5211403-43fb-49aa-82de-9fc1f6bc3e8c",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "255.80",
+                            "Attributes": [
+                              {
+                                "Value": "f5211403-43fb-49aa-82de-9fc1f6bc3e8c",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "SummaryRow",
+                        "Cells": [
+                          {
+                            "Value": "Total Operating Expenses"
+                          },
+                          {
+                            "Value": "19167.52"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Net Profit"
+                          },
+                          {
+                            "Value": "3029.68"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "content-length": "14582",
+            "server": "nginx",
+            "xero-correlation-id": "cd966a09-e4aa-4318-acf1-42a9b8df8ebf",
+            "x-appminlimit-remaining": "9993",
+            "x-minlimit-remaining": "58",
+            "x-daylimit-remaining": "4865",
+            "expires": "Sun, 20 Mar 2022 15:46:24 GMT",
+            "cache-control": "max-age=0, no-cache, no-store",
+            "pragma": "no-cache",
+            "date": "Sun, 20 Mar 2022 15:46:24 GMT",
+            "connection": "close",
+            "x-client-tls-ver": "tls1.3"
+          },
+          "request": {
+            "uri": {
+              "protocol": "https:",
+              "slashes": true,
+              "auth": null,
+              "host": "api.xero.com",
+              "port": null,
+              "hostname": "api.xero.com",
+              "hash": null,
+              "search": "?fromDate=2022-01-01&toDate=2022-12-31",
+              "query": "fromDate=2022-01-01&toDate=2022-12-31",
+              "pathname": "/api.xro/2.0/Reports/ProfitAndLoss",
+              "path": "/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31",
+              "href": "https://api.xero.com/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31"
+            },
+            "method": "GET",
+            "headers": {
+              "user-agent": "xero-node-4.19.0",
+              "xero-tenant-id": "d8ef412c-7947-4500-8e7f-73157e30961e",
+              "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjFDQUY4RTY2NzcyRDZEQzAyOEQ2NzI2RkQwMjYxNTgxNTcwRUZDMTkiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJISy1PWm5jdGJjQW8xbkp2MENZVmdWY09fQmsifQ.eyJuYmYiOjE2NDc3OTExNjYsImV4cCI6MTY0Nzc5Mjk2NiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS54ZXJvLmNvbSIsImF1ZCI6Imh0dHBzOi8vaWRlbnRpdHkueGVyby5jb20vcmVzb3VyY2VzIiwiY2xpZW50X2lkIjoiNEFGNDlENzlEMDE2NDM3NUI4ODhDMzYyMzlCQTA0NjgiLCJzdWIiOiJjMDM4NjUyYTg1ZDc1MWY1YTdjYzg4OWEwYzM3MmUwOSIsImF1dGhfdGltZSI6MTY0Nzc5MTE2MCwieGVyb191c2VyaWQiOiI1OTAwNjYxZi05YjgyLTRkMDctOGZmMi1iNDNjODU0ZTZkMWYiLCJnbG9iYWxfc2Vzc2lvbl9pZCI6IjQ3ZGZhZDA0ZGQ3MTRiOTJhMGQzNTcxNWVjMGRhMTQyIiwianRpIjoiZGJkMWJjNzQ3ZmE1ZWMyN2U3NWQ4NGY2ZTM5YTA2NWUiLCJhdXRoZW50aWNhdGlvbl9ldmVudF9pZCI6IjAzM2JjNTBjLTdiYjgtNGRiNS1iMzFhLWRlMzE0YjEzODk0MyIsInNjb3BlIjpbImVtYWlsIiwicHJvZmlsZSIsIm9wZW5pZCIsImFjY291bnRpbmcucmVwb3J0cy5yZWFkIiwiYWNjb3VudGluZy5zZXR0aW5ncyIsImFjY291bnRpbmcuYXR0YWNobWVudHMiLCJhY2NvdW50aW5nLnRyYW5zYWN0aW9ucyIsImFjY291bnRpbmcuam91cm5hbHMucmVhZCIsImFjY291bnRpbmcuY29udGFjdHMiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsic3NvIl19.K-h0wFfj9aNQvNzG4yp07ZtyP-on2e8SWOGV9XVMLpI1b1FdzE4iTjWdC8ieB1HCkqL3fUM8VQSmg6hF4bCb5PPEAJJyfv2_l-Jr0uimIyz8pNH8A1_NVIsJpUS44rP8Rmzd8A2UF6FrdkQ5x3FWr0i7BYwqfgB5g0jh-iF2_YWNzS-xPkxp-q_9HFyDWJ6KSRsx0qpS42pdNGTmpt61sO_FLTcFypDam7nsjnz8oVmS9FMvebOjJFNIiJR9lEOX-hMyN1wzw9YVFQxfoTP4xyGJZNsm69P_pT2InDu9EFghhGHYyLT4BmMzUACD3wEu6KD2itnvnYdLhRkdlW_GPQ",
+              "accept": "application/json"
+            }
+          }
+        },
+        "body": {
+          "reports": [
+            {
+              "reportID": "ProfitAndLoss",
+              "reportName": "Profit and Loss",
+              "reportType": "ProfitAndLoss",
+              "reportTitles": [
+                "Profit & Loss",
+                "Demo Company (Global)",
+                "1 January 2022 to 31 December 2022"
+              ],
+              "reportDate": "20 March 2022",
+              "rows": [
+                {
+                  "rowType": "Header",
+                  "cells": [
+                    {
+                      "value": ""
+                    },
+                    {
+                      "value": "31 Dec 22"
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "Income",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Sales",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "d1ebb97b-d207-4ccb-9ab6-8a466a8b4d39"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "22973.18",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "d1ebb97b-d207-4ccb-9ab6-8a466a8b4d39"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "SummaryRow",
+                      "cells": [
+                        {
+                          "value": "Total Income"
+                        },
+                        {
+                          "value": "22973.18"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "Less Cost of Sales",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Purchases",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "ae8074e0-1ac1-4b37-8546-afa9fa6ace9e"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "775.98",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "ae8074e0-1ac1-4b37-8546-afa9fa6ace9e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "SummaryRow",
+                      "cells": [
+                        {
+                          "value": "Total Cost of Sales"
+                        },
+                        {
+                          "value": "775.98"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Gross Profit"
+                        },
+                        {
+                          "value": "22197.20"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "Less Operating Expenses",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Advertising",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "eb01b8c7-f9b0-49ef-86f4-ed89b4ac33d5"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "9657.05",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "eb01b8c7-f9b0-49ef-86f4-ed89b4ac33d5"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Bank Fees",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "269479fb-cc8e-4e5f-b0b6-cc4eccf045e0"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "30.00",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "269479fb-cc8e-4e5f-b0b6-cc4eccf045e0"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Cleaning",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "30ad3fd7-43b8-4eeb-96bc-ed2b7c945f3c"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "110.00",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "30ad3fd7-43b8-4eeb-96bc-ed2b7c945f3c"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Consulting & Accounting",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "d2429b4f-ad8b-45e5-815a-13f5ecb0d5c1"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "87.00",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "d2429b4f-ad8b-45e5-815a-13f5ecb0d5c1"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Entertainment",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "6a7d9c59-1d5a-4474-8c61-3da1f980db13"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "1553.60",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "6a7d9c59-1d5a-4474-8c61-3da1f980db13"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Freight & Courier",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "c4b1c463-9913-4672-a8b8-01a3b546126f"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "105.50",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "c4b1c463-9913-4672-a8b8-01a3b546126f"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "General Expenses",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "4281c446-efb4-445d-b32d-c441a4ef5678"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "166.28",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "4281c446-efb4-445d-b32d-c441a4ef5678"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Light, Power, Heating",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "c61d3100-d95f-4ce4-ba75-c03cc767b825"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "335.82",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "c61d3100-d95f-4ce4-ba75-c03cc767b825"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Motor Vehicle Expenses",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "470f3b54-9cbe-420a-8d13-22cb17fd9d40"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "654.36",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "470f3b54-9cbe-420a-8d13-22cb17fd9d40"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Office Expenses",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "79fc6227-e183-409a-ba39-77028e0ceeff"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "812.59",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "79fc6227-e183-409a-ba39-77028e0ceeff"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Printing & Stationery",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "a8c9ca73-91ef-4163-a4f6-7d892201c087"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "94.41",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "a8c9ca73-91ef-4163-a4f6-7d892201c087"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Rent",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "d76027eb-0256-4b69-9f72-4751312e2749"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "3273.66",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "d76027eb-0256-4b69-9f72-4751312e2749"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Repairs and Maintenance",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "5098e313-2775-40c3-9bb4-6b1f86d89a47"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "1896.70",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "5098e313-2775-40c3-9bb4-6b1f86d89a47"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Telephone & Internet",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "3b4fee92-7ed1-4d63-b00e-8fdf13927e05"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "134.75",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "3b4fee92-7ed1-4d63-b00e-8fdf13927e05"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Travel - National",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "f5211403-43fb-49aa-82de-9fc1f6bc3e8c"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "255.80",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "f5211403-43fb-49aa-82de-9fc1f6bc3e8c"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "SummaryRow",
+                      "cells": [
+                        {
+                          "value": "Total Operating Expenses"
+                        },
+                        {
+                          "value": "19167.52"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Net Profit"
+                        },
+                        {
+                          "value": "3029.68"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "updatedDateUTC": "2022-03-20T15:46:24.318Z",
+              "fields": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "groupName": "Nitro Ventures",
+      "report": {
+        "response": {
+          "statusCode": 200,
+          "body": {
+            "Id": "79ce8fba-ce9a-412d-82a8-3cbc6ff141c6",
+            "Status": "OK",
+            "ProviderName": "NodeTest",
+            "DateTimeUTC": "/Date(1647791184855)/",
+            "Reports": [
+              {
+                "ReportID": "ProfitAndLoss",
+                "ReportName": "Profit and Loss",
+                "ReportType": "ProfitAndLoss",
+                "ReportTitles": [
+                  "Profit & Loss",
+                  "Nixxie International ",
+                  "1 January 2022 to 31 December 2022"
+                ],
+                "ReportDate": "20 March 2022",
+                "UpdatedDateUTC": "/Date(1647791184854)/",
+                "Fields": [],
+                "Rows": [
+                  {
+                    "RowType": "Header",
+                    "Cells": [
+                      {
+                        "Value": ""
+                      },
+                      {
+                        "Value": "31 Dec 22"
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Gross Profit"
+                          },
+                          {
+                            "Value": "0.00"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "Less Operating Expenses",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Office & Stationery Exps",
+                            "Attributes": [
+                              {
+                                "Value": "e2658363-50fa-451d-850a-6cc9fbafc7c3",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "3784.75",
+                            "Attributes": [
+                              {
+                                "Value": "e2658363-50fa-451d-850a-6cc9fbafc7c3",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "SummaryRow",
+                        "Cells": [
+                          {
+                            "Value": "Total Operating Expenses"
+                          },
+                          {
+                            "Value": "3784.75"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Net Profit"
+                          },
+                          {
+                            "Value": "-3784.75"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "content-length": "2665",
+            "server": "nginx",
+            "xero-correlation-id": "79ce8fba-ce9a-412d-82a8-3cbc6ff141c6",
+            "x-appminlimit-remaining": "9992",
+            "x-minlimit-remaining": "59",
+            "x-daylimit-remaining": "4838",
+            "expires": "Sun, 20 Mar 2022 15:46:24 GMT",
+            "cache-control": "max-age=0, no-cache, no-store",
+            "pragma": "no-cache",
+            "date": "Sun, 20 Mar 2022 15:46:24 GMT",
+            "connection": "close",
+            "x-client-tls-ver": "tls1.3"
+          },
+          "request": {
+            "uri": {
+              "protocol": "https:",
+              "slashes": true,
+              "auth": null,
+              "host": "api.xero.com",
+              "port": null,
+              "hostname": "api.xero.com",
+              "hash": null,
+              "search": "?fromDate=2022-01-01&toDate=2022-12-31",
+              "query": "fromDate=2022-01-01&toDate=2022-12-31",
+              "pathname": "/api.xro/2.0/Reports/ProfitAndLoss",
+              "path": "/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31",
+              "href": "https://api.xero.com/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31"
+            },
+            "method": "GET",
+            "headers": {
+              "user-agent": "xero-node-4.19.0",
+              "xero-tenant-id": "a515dfa8-a272-4d95-87d2-a1a4f22175b5",
+              "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjFDQUY4RTY2NzcyRDZEQzAyOEQ2NzI2RkQwMjYxNTgxNTcwRUZDMTkiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJISy1PWm5jdGJjQW8xbkp2MENZVmdWY09fQmsifQ.eyJuYmYiOjE2NDc3OTExNjYsImV4cCI6MTY0Nzc5Mjk2NiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS54ZXJvLmNvbSIsImF1ZCI6Imh0dHBzOi8vaWRlbnRpdHkueGVyby5jb20vcmVzb3VyY2VzIiwiY2xpZW50X2lkIjoiNEFGNDlENzlEMDE2NDM3NUI4ODhDMzYyMzlCQTA0NjgiLCJzdWIiOiJjMDM4NjUyYTg1ZDc1MWY1YTdjYzg4OWEwYzM3MmUwOSIsImF1dGhfdGltZSI6MTY0Nzc5MTE2MCwieGVyb191c2VyaWQiOiI1OTAwNjYxZi05YjgyLTRkMDctOGZmMi1iNDNjODU0ZTZkMWYiLCJnbG9iYWxfc2Vzc2lvbl9pZCI6IjQ3ZGZhZDA0ZGQ3MTRiOTJhMGQzNTcxNWVjMGRhMTQyIiwianRpIjoiZGJkMWJjNzQ3ZmE1ZWMyN2U3NWQ4NGY2ZTM5YTA2NWUiLCJhdXRoZW50aWNhdGlvbl9ldmVudF9pZCI6IjAzM2JjNTBjLTdiYjgtNGRiNS1iMzFhLWRlMzE0YjEzODk0MyIsInNjb3BlIjpbImVtYWlsIiwicHJvZmlsZSIsIm9wZW5pZCIsImFjY291bnRpbmcucmVwb3J0cy5yZWFkIiwiYWNjb3VudGluZy5zZXR0aW5ncyIsImFjY291bnRpbmcuYXR0YWNobWVudHMiLCJhY2NvdW50aW5nLnRyYW5zYWN0aW9ucyIsImFjY291bnRpbmcuam91cm5hbHMucmVhZCIsImFjY291bnRpbmcuY29udGFjdHMiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsic3NvIl19.K-h0wFfj9aNQvNzG4yp07ZtyP-on2e8SWOGV9XVMLpI1b1FdzE4iTjWdC8ieB1HCkqL3fUM8VQSmg6hF4bCb5PPEAJJyfv2_l-Jr0uimIyz8pNH8A1_NVIsJpUS44rP8Rmzd8A2UF6FrdkQ5x3FWr0i7BYwqfgB5g0jh-iF2_YWNzS-xPkxp-q_9HFyDWJ6KSRsx0qpS42pdNGTmpt61sO_FLTcFypDam7nsjnz8oVmS9FMvebOjJFNIiJR9lEOX-hMyN1wzw9YVFQxfoTP4xyGJZNsm69P_pT2InDu9EFghhGHYyLT4BmMzUACD3wEu6KD2itnvnYdLhRkdlW_GPQ",
+              "accept": "application/json"
+            }
+          }
+        },
+        "body": {
+          "reports": [
+            {
+              "reportID": "ProfitAndLoss",
+              "reportName": "Profit and Loss",
+              "reportType": "ProfitAndLoss",
+              "reportTitles": [
+                "Profit & Loss",
+                "Nixxie International ",
+                "1 January 2022 to 31 December 2022"
+              ],
+              "reportDate": "20 March 2022",
+              "rows": [
+                {
+                  "rowType": "Header",
+                  "cells": [
+                    {
+                      "value": ""
+                    },
+                    {
+                      "value": "31 Dec 22"
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Gross Profit"
+                        },
+                        {
+                          "value": "0.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "Less Operating Expenses",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Office & Stationery Exps",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "e2658363-50fa-451d-850a-6cc9fbafc7c3"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "3784.75",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "e2658363-50fa-451d-850a-6cc9fbafc7c3"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "SummaryRow",
+                      "cells": [
+                        {
+                          "value": "Total Operating Expenses"
+                        },
+                        {
+                          "value": "3784.75"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Net Profit"
+                        },
+                        {
+                          "value": "-3784.75"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "updatedDateUTC": "2022-03-20T15:46:24.854Z",
+              "fields": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "groupName": "Nitro Ventures",
+      "report": {
+        "response": {
+          "statusCode": 200,
+          "body": {
+            "Id": "cb16de54-435b-41d8-bf06-9cbbb341bb21",
+            "Status": "OK",
+            "ProviderName": "NodeTest",
+            "DateTimeUTC": "/Date(1647791185442)/",
+            "Reports": [
+              {
+                "ReportID": "ProfitAndLoss",
+                "ReportName": "Profit and Loss",
+                "ReportType": "ProfitAndLoss",
+                "ReportTitles": [
+                  "Profit & Loss",
+                  "Nitro Property Ltd",
+                  "1 January 2022 to 31 December 2022"
+                ],
+                "ReportDate": "20 March 2022",
+                "UpdatedDateUTC": "/Date(1647791185442)/",
+                "Fields": [],
+                "Rows": [
+                  {
+                    "RowType": "Header",
+                    "Cells": [
+                      {
+                        "Value": ""
+                      },
+                      {
+                        "Value": "31 Dec 22"
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "Income",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Intercompany Income",
+                            "Attributes": [
+                              {
+                                "Value": "b441d2c2-8dd1-414f-9133-505ca5b5e0ac",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "0.16",
+                            "Attributes": [
+                              {
+                                "Value": "b441d2c2-8dd1-414f-9133-505ca5b5e0ac",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Interest Received",
+                            "Attributes": [
+                              {
+                                "Value": "e7b42327-59f7-4bd6-a17a-f4ca271e9515",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "2375.34",
+                            "Attributes": [
+                              {
+                                "Value": "e7b42327-59f7-4bd6-a17a-f4ca271e9515",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Rental Income_Millet Road",
+                            "Attributes": [
+                              {
+                                "Value": "1021d35d-a8cc-4443-ac2c-f3883caf0171",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "4200.00",
+                            "Attributes": [
+                              {
+                                "Value": "1021d35d-a8cc-4443-ac2c-f3883caf0171",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Rental Income_Wellington Road",
+                            "Attributes": [
+                              {
+                                "Value": "86cb6e13-f509-4b0e-8bf8-bed9d651f87f",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "4200.00",
+                            "Attributes": [
+                              {
+                                "Value": "86cb6e13-f509-4b0e-8bf8-bed9d651f87f",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "SPVs Rental Income",
+                            "Attributes": [
+                              {
+                                "Value": "4dc54171-05c5-4df3-bdba-8e47f585fd64",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "11880.40",
+                            "Attributes": [
+                              {
+                                "Value": "4dc54171-05c5-4df3-bdba-8e47f585fd64",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "SummaryRow",
+                        "Cells": [
+                          {
+                            "Value": "Total Income"
+                          },
+                          {
+                            "Value": "22655.90"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "Less Cost of Sales",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "BTLW Letting Fees wellington",
+                            "Attributes": [
+                              {
+                                "Value": "8506e290-f7e5-4214-8db3-288e4f27d1bd",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "449.40",
+                            "Attributes": [
+                              {
+                                "Value": "8506e290-f7e5-4214-8db3-288e4f27d1bd",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Lettings Fees Millet Road",
+                            "Attributes": [
+                              {
+                                "Value": "fd604e2c-b7fb-413f-a138-f092b7670875",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "449.40",
+                            "Attributes": [
+                              {
+                                "Value": "fd604e2c-b7fb-413f-a138-f092b7670875",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Mortgages Millet Road",
+                            "Attributes": [
+                              {
+                                "Value": "4238f21c-185c-4e4f-83a8-c32f4be82b8e",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "1705.75",
+                            "Attributes": [
+                              {
+                                "Value": "4238f21c-185c-4e4f-83a8-c32f4be82b8e",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Mortgages SPVs",
+                            "Attributes": [
+                              {
+                                "Value": "0166befe-8c4e-4757-afa9-0d9f4f346d48",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "4678.13",
+                            "Attributes": [
+                              {
+                                "Value": "0166befe-8c4e-4757-afa9-0d9f4f346d48",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Mortgages Wellington Road",
+                            "Attributes": [
+                              {
+                                "Value": "5f461bfd-aad1-4436-a094-f8fc1868f286",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "1250.88",
+                            "Attributes": [
+                              {
+                                "Value": "5f461bfd-aad1-4436-a094-f8fc1868f286",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "SummaryRow",
+                        "Cells": [
+                          {
+                            "Value": "Total Cost of Sales"
+                          },
+                          {
+                            "Value": "8533.56"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Gross Profit"
+                          },
+                          {
+                            "Value": "14122.34"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "Less Operating Expenses",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Building Works",
+                            "Attributes": [
+                              {
+                                "Value": "70164246-b01d-4e12-aedb-29b08f65e508",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "125.00",
+                            "Attributes": [
+                              {
+                                "Value": "70164246-b01d-4e12-aedb-29b08f65e508",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Insurance",
+                            "Attributes": [
+                              {
+                                "Value": "78a65d8f-3775-4f38-b71f-5ad433c2b0e4",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "398.62",
+                            "Attributes": [
+                              {
+                                "Value": "78a65d8f-3775-4f38-b71f-5ad433c2b0e4",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Loan interest paid",
+                            "Attributes": [
+                              {
+                                "Value": "c4f292df-c81b-4cca-bd98-eced6c232c85",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "15097.03",
+                            "Attributes": [
+                              {
+                                "Value": "c4f292df-c81b-4cca-bd98-eced6c232c85",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Maintenance Fee",
+                            "Attributes": [
+                              {
+                                "Value": "f65a5109-6ebd-4e64-861c-082b583fae3c",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "75.00",
+                            "Attributes": [
+                              {
+                                "Value": "f65a5109-6ebd-4e64-861c-082b583fae3c",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Outsouce Fees",
+                            "Attributes": [
+                              {
+                                "Value": "18449bc4-919c-4c8c-8882-31af5c80ec20",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "1830.00",
+                            "Attributes": [
+                              {
+                                "Value": "18449bc4-919c-4c8c-8882-31af5c80ec20",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Software & IT Support",
+                            "Attributes": [
+                              {
+                                "Value": "16087060-ff0d-40ee-8a6d-fd5befe8f367",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "1185.76",
+                            "Attributes": [
+                              {
+                                "Value": "16087060-ff0d-40ee-8a6d-fd5befe8f367",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "SummaryRow",
+                        "Cells": [
+                          {
+                            "Value": "Total Operating Expenses"
+                          },
+                          {
+                            "Value": "18711.41"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Net Profit"
+                          },
+                          {
+                            "Value": "-4589.07"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "content-length": "13964",
+            "server": "nginx",
+            "xero-correlation-id": "cb16de54-435b-41d8-bf06-9cbbb341bb21",
+            "x-appminlimit-remaining": "9991",
+            "x-minlimit-remaining": "58",
+            "x-daylimit-remaining": "4972",
+            "expires": "Sun, 20 Mar 2022 15:46:25 GMT",
+            "cache-control": "max-age=0, no-cache, no-store",
+            "pragma": "no-cache",
+            "date": "Sun, 20 Mar 2022 15:46:25 GMT",
+            "connection": "close",
+            "x-client-tls-ver": "tls1.3"
+          },
+          "request": {
+            "uri": {
+              "protocol": "https:",
+              "slashes": true,
+              "auth": null,
+              "host": "api.xero.com",
+              "port": null,
+              "hostname": "api.xero.com",
+              "hash": null,
+              "search": "?fromDate=2022-01-01&toDate=2022-12-31",
+              "query": "fromDate=2022-01-01&toDate=2022-12-31",
+              "pathname": "/api.xro/2.0/Reports/ProfitAndLoss",
+              "path": "/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31",
+              "href": "https://api.xero.com/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31"
+            },
+            "method": "GET",
+            "headers": {
+              "user-agent": "xero-node-4.19.0",
+              "xero-tenant-id": "3e34556c-f7a9-4dc7-b9f5-f2dd6b9d8db1",
+              "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjFDQUY4RTY2NzcyRDZEQzAyOEQ2NzI2RkQwMjYxNTgxNTcwRUZDMTkiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJISy1PWm5jdGJjQW8xbkp2MENZVmdWY09fQmsifQ.eyJuYmYiOjE2NDc3OTExNjYsImV4cCI6MTY0Nzc5Mjk2NiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS54ZXJvLmNvbSIsImF1ZCI6Imh0dHBzOi8vaWRlbnRpdHkueGVyby5jb20vcmVzb3VyY2VzIiwiY2xpZW50X2lkIjoiNEFGNDlENzlEMDE2NDM3NUI4ODhDMzYyMzlCQTA0NjgiLCJzdWIiOiJjMDM4NjUyYTg1ZDc1MWY1YTdjYzg4OWEwYzM3MmUwOSIsImF1dGhfdGltZSI6MTY0Nzc5MTE2MCwieGVyb191c2VyaWQiOiI1OTAwNjYxZi05YjgyLTRkMDctOGZmMi1iNDNjODU0ZTZkMWYiLCJnbG9iYWxfc2Vzc2lvbl9pZCI6IjQ3ZGZhZDA0ZGQ3MTRiOTJhMGQzNTcxNWVjMGRhMTQyIiwianRpIjoiZGJkMWJjNzQ3ZmE1ZWMyN2U3NWQ4NGY2ZTM5YTA2NWUiLCJhdXRoZW50aWNhdGlvbl9ldmVudF9pZCI6IjAzM2JjNTBjLTdiYjgtNGRiNS1iMzFhLWRlMzE0YjEzODk0MyIsInNjb3BlIjpbImVtYWlsIiwicHJvZmlsZSIsIm9wZW5pZCIsImFjY291bnRpbmcucmVwb3J0cy5yZWFkIiwiYWNjb3VudGluZy5zZXR0aW5ncyIsImFjY291bnRpbmcuYXR0YWNobWVudHMiLCJhY2NvdW50aW5nLnRyYW5zYWN0aW9ucyIsImFjY291bnRpbmcuam91cm5hbHMucmVhZCIsImFjY291bnRpbmcuY29udGFjdHMiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsic3NvIl19.K-h0wFfj9aNQvNzG4yp07ZtyP-on2e8SWOGV9XVMLpI1b1FdzE4iTjWdC8ieB1HCkqL3fUM8VQSmg6hF4bCb5PPEAJJyfv2_l-Jr0uimIyz8pNH8A1_NVIsJpUS44rP8Rmzd8A2UF6FrdkQ5x3FWr0i7BYwqfgB5g0jh-iF2_YWNzS-xPkxp-q_9HFyDWJ6KSRsx0qpS42pdNGTmpt61sO_FLTcFypDam7nsjnz8oVmS9FMvebOjJFNIiJR9lEOX-hMyN1wzw9YVFQxfoTP4xyGJZNsm69P_pT2InDu9EFghhGHYyLT4BmMzUACD3wEu6KD2itnvnYdLhRkdlW_GPQ",
+              "accept": "application/json"
+            }
+          }
+        },
+        "body": {
+          "reports": [
+            {
+              "reportID": "ProfitAndLoss",
+              "reportName": "Profit and Loss",
+              "reportType": "ProfitAndLoss",
+              "reportTitles": [
+                "Profit & Loss",
+                "Nitro Property Ltd",
+                "1 January 2022 to 31 December 2022"
+              ],
+              "reportDate": "20 March 2022",
+              "rows": [
+                {
+                  "rowType": "Header",
+                  "cells": [
+                    {
+                      "value": ""
+                    },
+                    {
+                      "value": "31 Dec 22"
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "Income",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Intercompany Income",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "b441d2c2-8dd1-414f-9133-505ca5b5e0ac"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "0.16",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "b441d2c2-8dd1-414f-9133-505ca5b5e0ac"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Interest Received",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "e7b42327-59f7-4bd6-a17a-f4ca271e9515"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "2375.34",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "e7b42327-59f7-4bd6-a17a-f4ca271e9515"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Rental Income_Millet Road",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "1021d35d-a8cc-4443-ac2c-f3883caf0171"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "4200.00",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "1021d35d-a8cc-4443-ac2c-f3883caf0171"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Rental Income_Wellington Road",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "86cb6e13-f509-4b0e-8bf8-bed9d651f87f"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "4200.00",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "86cb6e13-f509-4b0e-8bf8-bed9d651f87f"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "SPVs Rental Income",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "4dc54171-05c5-4df3-bdba-8e47f585fd64"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "11880.40",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "4dc54171-05c5-4df3-bdba-8e47f585fd64"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "SummaryRow",
+                      "cells": [
+                        {
+                          "value": "Total Income"
+                        },
+                        {
+                          "value": "22655.90"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "Less Cost of Sales",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "BTLW Letting Fees wellington",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "8506e290-f7e5-4214-8db3-288e4f27d1bd"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "449.40",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "8506e290-f7e5-4214-8db3-288e4f27d1bd"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Lettings Fees Millet Road",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "fd604e2c-b7fb-413f-a138-f092b7670875"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "449.40",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "fd604e2c-b7fb-413f-a138-f092b7670875"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Mortgages Millet Road",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "4238f21c-185c-4e4f-83a8-c32f4be82b8e"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "1705.75",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "4238f21c-185c-4e4f-83a8-c32f4be82b8e"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Mortgages SPVs",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "0166befe-8c4e-4757-afa9-0d9f4f346d48"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "4678.13",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "0166befe-8c4e-4757-afa9-0d9f4f346d48"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Mortgages Wellington Road",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "5f461bfd-aad1-4436-a094-f8fc1868f286"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "1250.88",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "5f461bfd-aad1-4436-a094-f8fc1868f286"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "SummaryRow",
+                      "cells": [
+                        {
+                          "value": "Total Cost of Sales"
+                        },
+                        {
+                          "value": "8533.56"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Gross Profit"
+                        },
+                        {
+                          "value": "14122.34"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "Less Operating Expenses",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Building Works",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "70164246-b01d-4e12-aedb-29b08f65e508"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "125.00",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "70164246-b01d-4e12-aedb-29b08f65e508"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Insurance",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "78a65d8f-3775-4f38-b71f-5ad433c2b0e4"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "398.62",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "78a65d8f-3775-4f38-b71f-5ad433c2b0e4"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Loan interest paid",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "c4f292df-c81b-4cca-bd98-eced6c232c85"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "15097.03",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "c4f292df-c81b-4cca-bd98-eced6c232c85"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Maintenance Fee",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "f65a5109-6ebd-4e64-861c-082b583fae3c"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "75.00",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "f65a5109-6ebd-4e64-861c-082b583fae3c"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Outsouce Fees",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "18449bc4-919c-4c8c-8882-31af5c80ec20"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "1830.00",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "18449bc4-919c-4c8c-8882-31af5c80ec20"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Software & IT Support",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "16087060-ff0d-40ee-8a6d-fd5befe8f367"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "1185.76",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "16087060-ff0d-40ee-8a6d-fd5befe8f367"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "SummaryRow",
+                      "cells": [
+                        {
+                          "value": "Total Operating Expenses"
+                        },
+                        {
+                          "value": "18711.41"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Net Profit"
+                        },
+                        {
+                          "value": "-4589.07"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "updatedDateUTC": "2022-03-20T15:46:25.442Z",
+              "fields": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "groupName": "Nixxie",
+      "report": {
+        "response": {
+          "statusCode": 200,
+          "body": {
+            "Id": "5e1699b0-f523-4261-b64e-d03af41630d8",
+            "Status": "OK",
+            "ProviderName": "NodeTest",
+            "DateTimeUTC": "/Date(1647791186035)/",
+            "Reports": [
+              {
+                "ReportID": "ProfitAndLoss",
+                "ReportName": "Profit and Loss",
+                "ReportType": "ProfitAndLoss",
+                "ReportTitles": [
+                  "Profit & Loss",
+                  "Nixxie International Test",
+                  "1 January 2022 to 31 December 2022"
+                ],
+                "ReportDate": "20 March 2022",
+                "UpdatedDateUTC": "/Date(1647791186035)/",
+                "Fields": [],
+                "Rows": [
+                  {
+                    "RowType": "Header",
+                    "Cells": [
+                      {
+                        "Value": ""
+                      },
+                      {
+                        "Value": "31 Dec 22"
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Gross Profit"
+                          },
+                          {
+                            "Value": "0.00"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "Less Operating Expenses",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Foreign Currency Gains and Losses",
+                            "Attributes": [
+                              {
+                                "Value": "FXGROUPID",
+                                "Id": "account"
+                              },
+                              {
+                                "Value": "FXGROUPID",
+                                "Id": "groupID"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "0.06",
+                            "Attributes": [
+                              {
+                                "Value": "FXGROUPID",
+                                "Id": "account"
+                              },
+                              {
+                                "Value": "FXGROUPID",
+                                "Id": "groupID"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Office & Stationery Exps",
+                            "Attributes": [
+                              {
+                                "Value": "74cda5b4-9ffd-44cb-b946-757e11b60ee6",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "2.01",
+                            "Attributes": [
+                              {
+                                "Value": "74cda5b4-9ffd-44cb-b946-757e11b60ee6",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "SummaryRow",
+                        "Cells": [
+                          {
+                            "Value": "Total Operating Expenses"
+                          },
+                          {
+                            "Value": "2.07"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Net Profit"
+                          },
+                          {
+                            "Value": "-2.07"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "content-length": "3579",
+            "server": "nginx",
+            "xero-correlation-id": "5e1699b0-f523-4261-b64e-d03af41630d8",
+            "x-appminlimit-remaining": "9990",
+            "x-minlimit-remaining": "58",
+            "x-daylimit-remaining": "4864",
+            "expires": "Sun, 20 Mar 2022 15:46:26 GMT",
+            "cache-control": "max-age=0, no-cache, no-store",
+            "pragma": "no-cache",
+            "date": "Sun, 20 Mar 2022 15:46:26 GMT",
+            "connection": "close",
+            "x-client-tls-ver": "tls1.3"
+          },
+          "request": {
+            "uri": {
+              "protocol": "https:",
+              "slashes": true,
+              "auth": null,
+              "host": "api.xero.com",
+              "port": null,
+              "hostname": "api.xero.com",
+              "hash": null,
+              "search": "?fromDate=2022-01-01&toDate=2022-12-31",
+              "query": "fromDate=2022-01-01&toDate=2022-12-31",
+              "pathname": "/api.xro/2.0/Reports/ProfitAndLoss",
+              "path": "/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31",
+              "href": "https://api.xero.com/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31"
+            },
+            "method": "GET",
+            "headers": {
+              "user-agent": "xero-node-4.19.0",
+              "xero-tenant-id": "db6094e6-57b2-4a99-97e1-a7e2e622bad5",
+              "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjFDQUY4RTY2NzcyRDZEQzAyOEQ2NzI2RkQwMjYxNTgxNTcwRUZDMTkiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJISy1PWm5jdGJjQW8xbkp2MENZVmdWY09fQmsifQ.eyJuYmYiOjE2NDc3OTExNjYsImV4cCI6MTY0Nzc5Mjk2NiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS54ZXJvLmNvbSIsImF1ZCI6Imh0dHBzOi8vaWRlbnRpdHkueGVyby5jb20vcmVzb3VyY2VzIiwiY2xpZW50X2lkIjoiNEFGNDlENzlEMDE2NDM3NUI4ODhDMzYyMzlCQTA0NjgiLCJzdWIiOiJjMDM4NjUyYTg1ZDc1MWY1YTdjYzg4OWEwYzM3MmUwOSIsImF1dGhfdGltZSI6MTY0Nzc5MTE2MCwieGVyb191c2VyaWQiOiI1OTAwNjYxZi05YjgyLTRkMDctOGZmMi1iNDNjODU0ZTZkMWYiLCJnbG9iYWxfc2Vzc2lvbl9pZCI6IjQ3ZGZhZDA0ZGQ3MTRiOTJhMGQzNTcxNWVjMGRhMTQyIiwianRpIjoiZGJkMWJjNzQ3ZmE1ZWMyN2U3NWQ4NGY2ZTM5YTA2NWUiLCJhdXRoZW50aWNhdGlvbl9ldmVudF9pZCI6IjAzM2JjNTBjLTdiYjgtNGRiNS1iMzFhLWRlMzE0YjEzODk0MyIsInNjb3BlIjpbImVtYWlsIiwicHJvZmlsZSIsIm9wZW5pZCIsImFjY291bnRpbmcucmVwb3J0cy5yZWFkIiwiYWNjb3VudGluZy5zZXR0aW5ncyIsImFjY291bnRpbmcuYXR0YWNobWVudHMiLCJhY2NvdW50aW5nLnRyYW5zYWN0aW9ucyIsImFjY291bnRpbmcuam91cm5hbHMucmVhZCIsImFjY291bnRpbmcuY29udGFjdHMiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsic3NvIl19.K-h0wFfj9aNQvNzG4yp07ZtyP-on2e8SWOGV9XVMLpI1b1FdzE4iTjWdC8ieB1HCkqL3fUM8VQSmg6hF4bCb5PPEAJJyfv2_l-Jr0uimIyz8pNH8A1_NVIsJpUS44rP8Rmzd8A2UF6FrdkQ5x3FWr0i7BYwqfgB5g0jh-iF2_YWNzS-xPkxp-q_9HFyDWJ6KSRsx0qpS42pdNGTmpt61sO_FLTcFypDam7nsjnz8oVmS9FMvebOjJFNIiJR9lEOX-hMyN1wzw9YVFQxfoTP4xyGJZNsm69P_pT2InDu9EFghhGHYyLT4BmMzUACD3wEu6KD2itnvnYdLhRkdlW_GPQ",
+              "accept": "application/json"
+            }
+          }
+        },
+        "body": {
+          "reports": [
+            {
+              "reportID": "ProfitAndLoss",
+              "reportName": "Profit and Loss",
+              "reportType": "ProfitAndLoss",
+              "reportTitles": [
+                "Profit & Loss",
+                "Nixxie International Test",
+                "1 January 2022 to 31 December 2022"
+              ],
+              "reportDate": "20 March 2022",
+              "rows": [
+                {
+                  "rowType": "Header",
+                  "cells": [
+                    {
+                      "value": ""
+                    },
+                    {
+                      "value": "31 Dec 22"
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Gross Profit"
+                        },
+                        {
+                          "value": "0.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "Less Operating Expenses",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Foreign Currency Gains and Losses",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "FXGROUPID"
+                            },
+                            {
+                              "id": "groupID",
+                              "value": "FXGROUPID"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "0.06",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "FXGROUPID"
+                            },
+                            {
+                              "id": "groupID",
+                              "value": "FXGROUPID"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Office & Stationery Exps",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "74cda5b4-9ffd-44cb-b946-757e11b60ee6"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "2.01",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "74cda5b4-9ffd-44cb-b946-757e11b60ee6"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "SummaryRow",
+                      "cells": [
+                        {
+                          "value": "Total Operating Expenses"
+                        },
+                        {
+                          "value": "2.07"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Net Profit"
+                        },
+                        {
+                          "value": "-2.07"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "updatedDateUTC": "2022-03-20T15:46:26.035Z",
+              "fields": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "groupName": "Nixxie",
+      "report": {
+        "response": {
+          "statusCode": 200,
+          "body": {
+            "Id": "001fee07-ea96-46ac-95d6-206ac8c3ca09",
+            "Status": "OK",
+            "ProviderName": "NodeTest",
+            "DateTimeUTC": "/Date(1647791186582)/",
+            "Reports": [
+              {
+                "ReportID": "ProfitAndLoss",
+                "ReportName": "Profit and Loss",
+                "ReportType": "ProfitAndLoss",
+                "ReportTitles": [
+                  "Profit & Loss",
+                  "Nixxie International ",
+                  "1 January 2022 to 31 December 2022"
+                ],
+                "ReportDate": "20 March 2022",
+                "UpdatedDateUTC": "/Date(1647791186582)/",
+                "Fields": [],
+                "Rows": [
+                  {
+                    "RowType": "Header",
+                    "Cells": [
+                      {
+                        "Value": ""
+                      },
+                      {
+                        "Value": "31 Dec 22"
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Gross Profit"
+                          },
+                          {
+                            "Value": "0.00"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "Less Operating Expenses",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Office & Stationery Exps",
+                            "Attributes": [
+                              {
+                                "Value": "e2658363-50fa-451d-850a-6cc9fbafc7c3",
+                                "Id": "account"
+                              }
+                            ]
+                          },
+                          {
+                            "Value": "3784.75",
+                            "Attributes": [
+                              {
+                                "Value": "e2658363-50fa-451d-850a-6cc9fbafc7c3",
+                                "Id": "account"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "RowType": "SummaryRow",
+                        "Cells": [
+                          {
+                            "Value": "Total Operating Expenses"
+                          },
+                          {
+                            "Value": "3784.75"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "RowType": "Section",
+                    "Title": "",
+                    "Rows": [
+                      {
+                        "RowType": "Row",
+                        "Cells": [
+                          {
+                            "Value": "Net Profit"
+                          },
+                          {
+                            "Value": "-3784.75"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "content-length": "2665",
+            "server": "nginx",
+            "xero-correlation-id": "001fee07-ea96-46ac-95d6-206ac8c3ca09",
+            "x-appminlimit-remaining": "9989",
+            "x-minlimit-remaining": "58",
+            "x-daylimit-remaining": "4837",
+            "expires": "Sun, 20 Mar 2022 15:46:26 GMT",
+            "cache-control": "max-age=0, no-cache, no-store",
+            "pragma": "no-cache",
+            "date": "Sun, 20 Mar 2022 15:46:26 GMT",
+            "connection": "close",
+            "x-client-tls-ver": "tls1.3"
+          },
+          "request": {
+            "uri": {
+              "protocol": "https:",
+              "slashes": true,
+              "auth": null,
+              "host": "api.xero.com",
+              "port": null,
+              "hostname": "api.xero.com",
+              "hash": null,
+              "search": "?fromDate=2022-01-01&toDate=2022-12-31",
+              "query": "fromDate=2022-01-01&toDate=2022-12-31",
+              "pathname": "/api.xro/2.0/Reports/ProfitAndLoss",
+              "path": "/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31",
+              "href": "https://api.xero.com/api.xro/2.0/Reports/ProfitAndLoss?fromDate=2022-01-01&toDate=2022-12-31"
+            },
+            "method": "GET",
+            "headers": {
+              "user-agent": "xero-node-4.19.0",
+              "xero-tenant-id": "a515dfa8-a272-4d95-87d2-a1a4f22175b5",
+              "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjFDQUY4RTY2NzcyRDZEQzAyOEQ2NzI2RkQwMjYxNTgxNTcwRUZDMTkiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJISy1PWm5jdGJjQW8xbkp2MENZVmdWY09fQmsifQ.eyJuYmYiOjE2NDc3OTExNjYsImV4cCI6MTY0Nzc5Mjk2NiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS54ZXJvLmNvbSIsImF1ZCI6Imh0dHBzOi8vaWRlbnRpdHkueGVyby5jb20vcmVzb3VyY2VzIiwiY2xpZW50X2lkIjoiNEFGNDlENzlEMDE2NDM3NUI4ODhDMzYyMzlCQTA0NjgiLCJzdWIiOiJjMDM4NjUyYTg1ZDc1MWY1YTdjYzg4OWEwYzM3MmUwOSIsImF1dGhfdGltZSI6MTY0Nzc5MTE2MCwieGVyb191c2VyaWQiOiI1OTAwNjYxZi05YjgyLTRkMDctOGZmMi1iNDNjODU0ZTZkMWYiLCJnbG9iYWxfc2Vzc2lvbl9pZCI6IjQ3ZGZhZDA0ZGQ3MTRiOTJhMGQzNTcxNWVjMGRhMTQyIiwianRpIjoiZGJkMWJjNzQ3ZmE1ZWMyN2U3NWQ4NGY2ZTM5YTA2NWUiLCJhdXRoZW50aWNhdGlvbl9ldmVudF9pZCI6IjAzM2JjNTBjLTdiYjgtNGRiNS1iMzFhLWRlMzE0YjEzODk0MyIsInNjb3BlIjpbImVtYWlsIiwicHJvZmlsZSIsIm9wZW5pZCIsImFjY291bnRpbmcucmVwb3J0cy5yZWFkIiwiYWNjb3VudGluZy5zZXR0aW5ncyIsImFjY291bnRpbmcuYXR0YWNobWVudHMiLCJhY2NvdW50aW5nLnRyYW5zYWN0aW9ucyIsImFjY291bnRpbmcuam91cm5hbHMucmVhZCIsImFjY291bnRpbmcuY29udGFjdHMiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsic3NvIl19.K-h0wFfj9aNQvNzG4yp07ZtyP-on2e8SWOGV9XVMLpI1b1FdzE4iTjWdC8ieB1HCkqL3fUM8VQSmg6hF4bCb5PPEAJJyfv2_l-Jr0uimIyz8pNH8A1_NVIsJpUS44rP8Rmzd8A2UF6FrdkQ5x3FWr0i7BYwqfgB5g0jh-iF2_YWNzS-xPkxp-q_9HFyDWJ6KSRsx0qpS42pdNGTmpt61sO_FLTcFypDam7nsjnz8oVmS9FMvebOjJFNIiJR9lEOX-hMyN1wzw9YVFQxfoTP4xyGJZNsm69P_pT2InDu9EFghhGHYyLT4BmMzUACD3wEu6KD2itnvnYdLhRkdlW_GPQ",
+              "accept": "application/json"
+            }
+          }
+        },
+        "body": {
+          "reports": [
+            {
+              "reportID": "ProfitAndLoss",
+              "reportName": "Profit and Loss",
+              "reportType": "ProfitAndLoss",
+              "reportTitles": [
+                "Profit & Loss",
+                "Nixxie International ",
+                "1 January 2022 to 31 December 2022"
+              ],
+              "reportDate": "20 March 2022",
+              "rows": [
+                {
+                  "rowType": "Header",
+                  "cells": [
+                    {
+                      "value": ""
+                    },
+                    {
+                      "value": "31 Dec 22"
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Gross Profit"
+                        },
+                        {
+                          "value": "0.00"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "Less Operating Expenses",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Office & Stationery Exps",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "e2658363-50fa-451d-850a-6cc9fbafc7c3"
+                            }
+                          ]
+                        },
+                        {
+                          "value": "3784.75",
+                          "attributes": [
+                            {
+                              "id": "account",
+                              "value": "e2658363-50fa-451d-850a-6cc9fbafc7c3"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "rowType": "SummaryRow",
+                      "cells": [
+                        {
+                          "value": "Total Operating Expenses"
+                        },
+                        {
+                          "value": "3784.75"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "rowType": "Section",
+                  "title": "",
+                  "rows": [
+                    {
+                      "rowType": "Row",
+                      "cells": [
+                        {
+                          "value": "Net Profit"
+                        },
+                        {
+                          "value": "-3784.75"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "updatedDateUTC": "2022-03-20T15:46:26.582Z",
+              "fields": []
+            }
+          ]
+        }
+      }
+    }
+  ]

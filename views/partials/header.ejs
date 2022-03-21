@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5e749ec5a6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Central Accounting App</title>
+</head>
+<header>
+  <nav class="top-bar">
+    <h1 class="page-title"><a href="/">Central Accounting App</a> </h1>
+  </nav>
+</header>
+
+<body>
+  <section id="sidebarSection">
+    <div id="sidebarContainer" class="container d-md-flex align-items-stretch">
+      <nav id="sidebar">
+        <div class="p-4 pt-5 sidebar">
+          <ul class="list-unstyled components mb-5">
+            <li>
+              <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle main">Profit/Loss</a>
+              <ul class="collapse list-unstyled" id="submenu1">
+                <li> <a href="#omenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle sub">Organisations</a>
+                <ul class="collapse list-unstyled" id="omenu">
+                  <li><a href="/date-range-report"><span class="fa fa-chevron-right mr-2"></span>Date Range</a></li>
+                  <li><a href="/monthdate-pnl"><span class="fa fa-chevron-right mr-2"></span>Month to Date</a></li>
+                  <li><a href="/yeardate-pnl"><span class="fa fa-chevron-right mr-2"></span>Year to Date</a></li>
+                  <li><a href="/compare-6months-pnl"><span class="fa fa-chevron-right mr-2"></span>Compare Months</a></li>
+                </ul>
+              </li>
+                <li> <a href="#gmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle sub">Groups</a>
+                  <ul class="collapse list-unstyled" id="gmenu">
+                    <li><a href="/groups-pnl-dr"><span class="fa fa-chevron-right mr-2"></span>Date Range</a></li>
+                    <li><a href="/groups-pnl-m2d"><span class="fa fa-chevron-right mr-2"></span>Month to Date</a></li>
+                    <li><a href="/groups-pnl-y2d"><span class="fa fa-chevron-right mr-2"></span>Year to Date</a></li>
+                    <li><a href="/groups-pnl-cm"><span class="fa fa-chevron-right mr-2"></span>Compare Months</a></li>
+                  </ul>
+                </li>
+                <li> <a href="#dmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle sub">Departments</a>
+                <ul class="collapse list-unstyled" id="dmenu">
+                  <li><a href="/departmens-pnl-dr"><span class="fa fa-chevron-right mr-2"></span>Date Range</a></li>
+                  <li><a href="/departmens-pnl-m2d"><span class="fa fa-chevron-right mr-2"></span>Month to Date</a></li>
+                  <li><a href="/departmens-pnl-y2d"><span class="fa fa-chevron-right mr-2"></span>Year to Date</a></li>
+                  <li><a href="/departmens-pnl-cm"><span class="fa fa-chevron-right mr-2"></span>Compare Months</a></li>
+                </ul>
+              </li>
+
+
+
+
+              </ul>
+            </li>
+            <li>
+              <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle main">Recent
+                Transactions</a>
+              <ul class="collapse list-unstyled" id="submenu2">
+                <li><a href="/recent-sales"><span class="fa fa-chevron-right mr-2"></span>Receivables</a></li>
+                <li><a href="/recent-bills"><span class="fa fa-chevron-right mr-2"></span>Payables</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#submenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle main">Balance
+                Sheet</a>
+              <ul class="collapse list-unstyled" id="submenu3">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Groups</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Orgs</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Departments</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#submenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle main">Trial
+                Balances</a>
+              <ul class="collapse list-unstyled" id="submenu4">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Groups</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Orgs</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Departments</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#submenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle main">Aged
+                Receivables</a>
+              <ul class="collapse list-unstyled" id="submenu5">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Groups</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Organisations</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Departments</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#submenu7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle main">Aged
+                Payables</a>
+              <ul class="collapse list-unstyled" id="submenu7">
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Groups</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Organisations</a></li>
+                <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Departments</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#submenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle main">Settings</a>
+              <ul class="collapse list-unstyled" id="submenu6">
+                <li><a href="/add-group"><span class="fa fa-chevron-right mr-2"></span>Create Group</a></li>
+                <li><a href="/groups"><span class="fa fa-chevron-right mr-2"></span>View Groups</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

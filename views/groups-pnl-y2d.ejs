@@ -1,0 +1,72 @@
+<%- include('partials/header.ejs') -%>
+
+<section id="dataSection">
+    <h2><%=pageTitle%></h2>
+  
+        <% groups.forEach(function(group) { %>
+            <div class="table-group-pnl">
+            <span class="group-title"><%=group.title%></span><br>
+            <small><%=group.report[0][0].reportTitles[2]%></small>
+        <table class="group-pnl-y2d">
+
+            <thead>
+             
+                <tr>
+                    <th></th>
+                    <th>Income</th>
+                    <th>Cost of Sale</th>
+                    <th>Opr Expenses</th>
+                    <th>Profit/Loss</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% group.report.forEach(function(report) { %>
+                <tr>
+                    <td><%= report[0].reportTitles[1] %></td>
+                    <td>
+                   <% if(report[0].rows[1].title == 'Income') { %>
+                        <%= report[0].rows[1].rows[report[0].rows[1].rows.length - 1].cells[1].value %>
+                    <% } else { %>
+                        <%= 0 %>
+                    <% } %>
+                    </td>
+                    <td>
+                        <% if(report[0].rows[2].title == 'Less Cost of Sales') { %>
+                            <%= report[0].rows[2].rows[report[0].rows[2].rows.length - 1].cells[1].value %>
+                        <% } else { %>
+                            <%= 0 %>
+                        <% } %>
+                    </td>
+                    <td>
+                        <% if(report[0].rows[report[0].rows.length - 2].title == 'Less Operating Expenses') { %>
+                            <%= report[0].rows[report[0].rows.length - 2].rows[report[0].rows[report[0].rows.length - 2].rows.length - 1].cells[1].value %>
+                        <% } else { %>
+                            <%= 0 %>
+                        <% } %>
+                    </td>
+                    <td>
+                        <% if(report[0].rows[report[0].rows.length - 1].rows[0].cells[0].value == 'Net Profit') { %>
+                            <%= report[0].rows[report[0].rows.length - 1].rows[0].cells[1].value %>
+                        <% } else { %>
+                            <%= 0 %>
+                        <% } %>
+                    </td>
+                </tr>
+                <% }); %>
+            </tbody>
+        
+        </table>
+        
+    </div>
+        <% }); %>
+
+
+
+
+
+</section>
+
+
+
+
+<%- include('partials/footer.ejs') -%>
